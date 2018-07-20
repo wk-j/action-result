@@ -1,0 +1,4 @@
+GET https://localhost:5001/api/search/getNode?id=0
+
+###
+GET https://localhost:5001/api/search/getNode?id=1
