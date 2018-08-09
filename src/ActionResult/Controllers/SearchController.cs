@@ -29,7 +29,8 @@ namespace ActionResult.Controllers {
         }
 
         public ActionResult<IEnumerable<string>> GetZ() {
-            return Enumerable.Empty<string>();
+            // return Enumerable.Empty<string>();
+            return null;
         }
     }
 }
