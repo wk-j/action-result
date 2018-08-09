@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ActionResult.Controllers {
@@ -16,6 +18,18 @@ namespace ActionResult.Controllers {
             } else {
                 return new Node { Name = "N1" };
             }
+        }
+
+        public ActionResult<IEnumerable<string>> GetX() {
+            return new string[] { };
+        }
+
+        public ActionResult<IEnumerable<string>> GetY() {
+            return new List<string> { };
+        }
+
+        public ActionResult<IEnumerable<string>> GetZ() {
+            return Enumerable.Empty<string>();
         }
     }
 }

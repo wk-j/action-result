@@ -1,1 +1,1 @@
-## Action Result of T ##
+## ActionResult`<T>` ##
